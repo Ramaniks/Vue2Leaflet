@@ -48,6 +48,7 @@ export default {
         :layers="layer.layers"
         :visible="layer.visible"
         :name="layer.name"
+        :format="layer.format"
         layer-type="base">
     </l-wms-tile-layer>
   </l-map>
